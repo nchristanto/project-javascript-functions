@@ -41,7 +41,7 @@ addMarks('I will drink more water', '!', 2)
 
 
 // Example 4
-const showFoodNutrition = (food = 'unknown', nutrition) => {
+const showFoodNutrition = (food, nutrition) => {
     const foodNutrition = `${food} contains ${nutrition}`
 
     return foodNutrition
